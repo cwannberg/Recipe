@@ -1,3 +1,6 @@
+/* ==============================
+   BASE
+   ============================== */
 body {
     background-color: #ffeadb;
     color: #314539;
@@ -5,90 +8,138 @@ body {
     width: 800px;
     margin: auto;
 }
+
 a {
     color: #314539;
     text-decoration: none;
 }
-header {
-    background-color:#678a74;
-    padding-top: 10px;
-}
-header h1 {
-    color:#ffeadb;
-    font-family: 'Rock Salt', seif;
-    text-align: center;
-    font-size: 50px;
-    margin-bottom: 0px;
-}
-header p {
-    color: #FFF6F0;
-    font-family: 'DM Serif Text', Arial;
-    text-align: center;
-    font-size: 20px;
-}
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #f7c5a8;
-}
-nav a {
-    margin: 10px;
-    background-color:#fff;
-    padding: 5px 20px;
-    border-radius: 10px;
-    font-family:'DM Serif Text', Arial;
-    font-size: 15px;
-}
-main {
-    background-color: #FFF6F0;
-    padding-top: 1px;
-}
-.about-recipe-box{
-    text-align: center;
-    background-color: #FFF6F0;
-    text-align: center;
-    font-size: 15px;
-}
-.about-recipe-box h2{
-    font-family: 'DM Serif Text', Arial;
-}
-section {
-    background-color: #f7c5a8;
-}
+
 img {
     width: 800px;
     height: auto;
     display: block;
     margin: auto;
 }
+
+/* ==============================
+   HEADER
+   ============================== */
+header {
+    background-color: #678a74;
+    padding-top: 10px;
+}
+
+header h1 {
+    color: #ffeadb;
+    font-family: 'Rock Salt', serif;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+header p {
+    color: #FFF6F0;
+    font-family: 'DM Serif Text', Arial;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* ==============================
+   NAVIGATION
+   ============================== */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f7c5a8;
+}
+
+nav a {
+    margin: 10px;
+    background-color: #fff;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-family: 'DM Serif Text', Arial;
+    font-size: 15px;
+}
+
+/* ==============================
+   MAIN
+   ============================== */
+main {
+    background-color: #FFF6F0;
+    padding-top: 1px;
+}
+
+/* ==============================
+   SECTIONS
+   ============================== */
+section {
+    background-color: #f7c5a8;
+}
+
+/* ==============================
+   ABOUT RECIPE BOX
+   ============================== */
+.about-recipe-box {
+    background-color: #FFF6F0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.about-recipe-box h2 {
+    font-family: 'DM Serif Text', Arial;
+}
+
+/* ==============================
+   CONTAINER
+   ============================== */
 .container {
     display: flex;
 }
-.container h3{
-    font-family:'DM Serif Text', Arial;
+
+.container h3 {
+    font-family: 'DM Serif Text', Arial;
 }
-#ingredients{
+
+/* ==============================
+   INGREDIENSES
+   ============================== */
+#ingredients {
     width: 50%;
 }
+
+/* ==============================
+   ARTICLE BOX
+   ============================== */
 .article-box {
-    background-color:#fff;
+    background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     margin: 10px;
 }
+
+/* ==============================
+   FOOTER
+   ============================== */
 footer {
     background-color: #f7c5a8;
 }
+
+/* ==============================
+   CONTACT
+   ============================== */
 #contact {
-        background-color:#fff;
-        padding: 10px;
-        border-radius: 10px;
-        margin: 10px;
-        width: 50%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 50%;
 }
-#contact h3{
+
+#contact h3 {
     text-align: center;
 }
-#contact p{
+
+#contact p {
     margin-left: 20px;
 }
