@@ -14,7 +14,9 @@ Det här är en enkel och responsiv webbsida som visar Cillas favoritrecept, med
 ## 📁 Filstruktur
 
 ├── index.html # Huvudsidan
+
 ├── style.css # CSS-stilar
+
 └── README.md # Denna fil
 
 ## 🖋 Typsnitt
