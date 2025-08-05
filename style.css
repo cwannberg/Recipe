@@ -137,3 +137,7 @@ footer {
 #openhours p {
     margin-left: 20px;
 }
+#contact ,
+#openhours  {
+    width: 50%;
+}
