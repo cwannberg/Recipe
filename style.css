@@ -109,16 +109,6 @@ section {
 }
 
 /* ==============================
-   ARTICLE BOX
-   ============================== */
-.article-box {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-/* ==============================
    FOOTER
    ============================== */
 footer {
@@ -126,20 +116,33 @@ footer {
 }
 
 /* ==============================
-   CONTACT
+   CONTAINER
    ============================== */
-#contact {
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-    width: 50%;
+.container {
+    display: flex;
+    justify-content: space-between;
 }
 
-#contact h3 {
+/* ==============================
+   ARTICLE BOX
+   ============================== */
+.article-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 45%;
+}
+
+/* ==============================
+   CONTACT
+   ============================== */
+#contact h3,
+#openhours h3 {
     text-align: center;
 }
 
-#contact p {
+#contact p,
+#openhours p {
     margin-left: 20px;
 }
